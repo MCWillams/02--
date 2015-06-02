@@ -13,7 +13,7 @@
 @property (nonatomic,assign) CGPoint currentMovePoint;
 @end
 @implementation BQLockView
-
+//代码创建
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
@@ -23,7 +23,7 @@
         }
     return self;
 }
-
+//xib创建
 -(id)initWithCoder:(NSCoder *)aDecoder{
     if (self = [super initWithCoder:aDecoder]) {
         [self setup];
@@ -31,7 +31,7 @@
     return self;
 
 }
-
+//初始化
 -(void)setup{
     for (int index = 0; index<9; index++) {
     UIButton *btn = [[UIButton alloc]init];
@@ -173,7 +173,7 @@
     if (CGPointEqualToPoint(self.currentMovePoint,CGPointZero) == NO) {
         [path addLineToPoint:self.currentMovePoint];
     }
-    //4.
+    //4.设置圆角
     [path setLineCapStyle:kCGLineCapRound];
     //5. 设置线宽
     [path setLineWidth:8];
