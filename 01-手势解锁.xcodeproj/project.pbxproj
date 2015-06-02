@@ -21,6 +21,7 @@
 		60748F1B1B1ADD0A00D42E10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60748EFD1B1ADD0A00D42E10 /* UIKit.framework */; };
 		60748F231B1ADD0A00D42E10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60748F211B1ADD0A00D42E10 /* InfoPlist.strings */; };
 		60748F251B1ADD0A00D42E10 /* _1_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60748F241B1ADD0A00D42E10 /* _1_____Tests.m */; };
+		60748F301B1AE40200D42E10 /* BQLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60748F2F1B1AE40200D42E10 /* BQLockView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		60748F201B1ADD0A00D42E10 /* 01-手势解锁Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "01-手势解锁Tests-Info.plist"; sourceTree = "<group>"; };
 		60748F221B1ADD0A00D42E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		60748F241B1ADD0A00D42E10 /* _1_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1_____Tests.m"; sourceTree = "<group>"; };
+		60748F2E1B1AE40200D42E10 /* BQLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BQLockView.h; sourceTree = "<group>"; };
+		60748F2F1B1AE40200D42E10 /* BQLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BQLockView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				60748F0B1B1ADD0A00D42E10 /* Main.storyboard */,
 				60748F0E1B1ADD0A00D42E10 /* YBQViewController.h */,
 				60748F0F1B1ADD0A00D42E10 /* YBQViewController.m */,
+				60748F2E1B1AE40200D42E10 /* BQLockView.h */,
+				60748F2F1B1AE40200D42E10 /* BQLockView.m */,
 				60748F111B1ADD0A00D42E10 /* Images.xcassets */,
 				60748F001B1ADD0A00D42E10 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				60748F061B1ADD0A00D42E10 /* main.m in Sources */,
 				60748F101B1ADD0A00D42E10 /* YBQViewController.m in Sources */,
+				60748F301B1AE40200D42E10 /* BQLockView.m in Sources */,
 				60748F0A1B1ADD0A00D42E10 /* YBQAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

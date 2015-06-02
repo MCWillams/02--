@@ -7,23 +7,25 @@
 //
 
 #import "YBQViewController.h"
-
-@interface YBQViewController ()
-
+#import "BQLockView.h"
+@interface YBQViewController ()<BQLockViewDelegate>
+@property (weak, nonatomic) IBOutlet BQLockView *lockView;
 @end
-
 @implementation YBQViewController
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.lockView.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)lockView:(BQLockView *)lockView didFinishPath:(NSString *)path{
+    NSLog(@"用户路径是：%@",path);
 }
 
 @end
