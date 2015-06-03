@@ -150,7 +150,7 @@
     [self setNeedsDisplay];
 
 }
-
+//绘图
 -(void)drawRect:(CGRect)rect{
     //如果选中按钮等于0.直接返回（清空绘图）
     if (self.selectedBtns.count == 0) return;
